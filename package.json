@@ -1,0 +1,27 @@
+{
+  "name": "rubezh-access-control",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/prepare-models.mjs && vite build && node scripts/verify-build.mjs",
+    "start": "vite --host 127.0.0.1",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs",
+    "postinstall": "node scripts/prepare-models.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@vladmandic/human": "^3.3.6",
+    "lucide-vue-next": "^0.468.0",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "vite": "^8.3.5"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "fullName": "Алексей Иванов",
+    "personnelNumber": "EMP-001",
+    "departmentId": 1,
+    "positionId": 1,
+    "accessLevelId": 1,
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "fullName": "Анна Морозова",
+    "personnelNumber": "EMP-002",
+    "departmentId": 1,
+    "positionId": 4,
+    "accessLevelId": 1,
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "fullName": "Дмитрий Козлов",
+    "personnelNumber": "EMP-003",
+    "departmentId": 1,
+    "positionId": 3,
+    "accessLevelId": 2,
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "fullName": "Елена Петрова",
+    "personnelNumber": "EMP-004",
+    "departmentId": 2,
+    "positionId": 2,
+    "accessLevelId": 3,
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "fullName": "Ольга Смирнова",
+    "personnelNumber": "EMP-005",
+    "departmentId": 4,
+    "positionId": 5,
+    "accessLevelId": 1,
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "fullName": "Михаил Соколов",
+    "personnelNumber": "EMP-006",
+    "departmentId": 3,
+    "positionId": 5,
+    "accessLevelId": 2,
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "fullName": "Артём Васильев",
+    "personnelNumber": "EMP-007",
+    "departmentId": 1,
+    "positionId": 1,
+    "accessLevelId": 1,
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "fullName": "Павел Новиков",
+    "personnelNumber": "EMP-008",
+    "departmentId": 4,
+    "positionId": 5,
+    "accessLevelId": 1,
+    "status": "blocked"
+  }
+]

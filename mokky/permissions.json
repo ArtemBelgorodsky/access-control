@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "accessLevelId": 2,
+    "roomId": 1,
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "active": true
+  },
+  {
+    "id": 2,
+    "accessLevelId": 2,
+    "roomId": 2,
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "active": true
+  },
+  {
+    "id": 3,
+    "accessLevelId": 2,
+    "roomId": 3,
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "active": true
+  },
+  {
+    "id": 4,
+    "accessLevelId": 2,
+    "roomId": 4,
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "active": true
+  },
+  {
+    "id": 5,
+    "accessLevelId": 2,
+    "roomId": 5,
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "active": true
+  },
+  {
+    "id": 6,
+    "accessLevelId": 2,
+    "roomId": 6,
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "active": true
+  },
+  {
+    "id": 7,
+    "accessLevelId": 1,
+    "roomId": 1,
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "startTime": "08:00",
+    "endTime": "20:00",
+    "active": true
+  },
+  {
+    "id": 8,
+    "accessLevelId": 1,
+    "roomId": 4,
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "startTime": "08:00",
+    "endTime": "20:00",
+    "active": true
+  },
+  {
+    "id": 9,
+    "accessLevelId": 3,
+    "roomId": 1,
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "startTime": "08:00",
+    "endTime": "20:00",
+    "active": true
+  },
+  {
+    "id": 10,
+    "accessLevelId": 3,
+    "roomId": 4,
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "startTime": "08:00",
+    "endTime": "20:00",
+    "active": true
+  },
+  {
+    "id": 11,
+    "accessLevelId": 3,
+    "roomId": 5,
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "startTime": "08:00",
+    "endTime": "20:00",
+    "active": true
+  }
+]

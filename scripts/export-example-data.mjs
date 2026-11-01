@@ -1,0 +1,10 @@
+import { mkdir, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import { makeSeed, RESOURCE_NAMES } from '../src/seed.js';
+const directory = fileURLToPath(new URL('../mokky/', import.meta.url));
+await mkdir(directory, { recursive: true });
+const seed = makeSeed();
+seed.access_events = [];
+seed.face_templates = [];
+for (const resource of RESOURCE_NAMES) await writeFile(`${directory}${resource}.json`, `${JSON.stringify(seed[resource], null, 2)}\n`);
+console.log('Example resources saved to mokky/. Existing remote resources were not modified.');
