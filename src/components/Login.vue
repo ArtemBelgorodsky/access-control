@@ -23,16 +23,8 @@ async function submit() {
     <section class="login-intro">
       <a class="brand" href="#"><span class="brand-mark"><Icon name="rooms" :size="30" /></span><div>рубеж<span>УПРАВЛЕНИЕ ДОСТУПОМ</span></div></a>
       <div class="login-story">
-        <span class="eyebrow"><span class="eyebrow-rule"></span>ДОСТУП К ПРОСТРАНСТВУ</span>
-        <h1>У каждого<br />пространства —<br /><em>свои правила.</em></h1>
-        <p>Управляйте разрешениями, регистрируйте проходы<br />и знайте, кто находится в помещениях организации.</p>
-        <div class="access-workflow">
-          <div><span class="workflow-number">01</span><Icon name="scan" :size="20" /><strong>Установить личность</strong><span>Сотрудник</span></div>
-          <div><span class="workflow-number">02</span><Icon name="key" :size="20" /><strong>Проверить разрешение</strong><span>Права доступа</span></div>
-          <div><span class="workflow-number">03</span><Icon name="rooms" :size="20" /><strong>Зарегистрировать проход</strong><span>Событие</span></div>
-        </div>
+        <h1 class="login-system-title">Информационная система управления доступом сотрудников в помещения организации</h1>
       </div>
-      <span class="intro-footer"><span class="dot"></span>РУБЕЖ / ЛЮДИ И ПРОСТРАНСТВА</span>
     </section>
     <section class="login-form-area">
       <div class="login-form-wrap">

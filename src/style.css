@@ -138,3 +138,11 @@ input, select, textarea { display: block; width: 100%; min-width: 0; padding: 11
   .login-bottom > span { display: none; }
 }
 @media (max-width: 767px) { input, select, textarea, .login-form-wrap input { font-size: 16px; } }
+.login-story .login-system-title { max-width: 650px; margin-top: 0; font-size: clamp(30px, 3vw, 44px); line-height: 1.3; letter-spacing: -1.3px; text-wrap: balance; overflow-wrap: break-word; }
+@media (max-width: 767px) {
+  .login-intro .login-story { display: block; margin: 0; padding: 28px 0 4px; }
+  .login-story .login-system-title { max-width: 560px; font-size: 24px; letter-spacing: -.6px; }
+  .login-screen { grid-template-rows: auto 1fr; }
+  .login-form-area { min-height: 0; }
+}
+@media (max-width: 480px) { .login-story .login-system-title { font-size: 22px; } }
